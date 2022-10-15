@@ -1,0 +1,75 @@
+body {
+  background-image: url("images/lil_robot_flip.gif");
+  background-repeat: repeat;
+  background-size: 175px;
+}
+
+.screen_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.contents_container {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  background-color: white;
+  height: 615px;
+  width: 500px;
+  color: rgb(76, 23, 23);
+}
+
+.contents_container hr {
+  border: none;
+  height: 2px;
+  background: rgb(76, 23, 23);
+  width: 400px;
+}
+
+.media {
+  height: 50px;
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+  width: 450px;
+}
+
+.media_logo img {
+  height: 40px;
+}
+
+.media_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.media_container {
+  display: flex;
+  justify-content: center;
+}
+
+.contents_container h1 {
+  padding-top: 20px;
+  line-height: 0;
+}
+
+.contents_container h3 {
+  line-height: 0;
+  padding-bottom: 20px;
+}
+
+.media_message {
+  display: flex;
+}
+
+.media a {
+  text-decoration: none;
+  color: rgb(76, 23, 23);
+}
+
+.media a:hover {
+  text-decoration: underline;
+  color: rgb(176, 52, 52);
+}
